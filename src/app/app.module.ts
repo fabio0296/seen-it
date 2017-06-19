@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material'
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-
+import { MoviesModule } from './movies/movies.module';
 import 'hammerjs';
 @NgModule({
   declarations: [
@@ -14,6 +14,7 @@ import 'hammerjs';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
+    MoviesModule,
     CoreModule
   ],
   providers: [],
